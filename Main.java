@@ -1,8 +1,7 @@
 public class Main {
   public static void main (String[] args){
-    String name ="あみっぴー";
-    String message;
-    message = name+"さん、やっほー！";
-    System.out.println(message);
+  String age ="20";
+  int n = Integer.parseInt(age);
+  System.out.println("あなたは来年、"+(n+1)+"歳になるね。");
   }
 }
