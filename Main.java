@@ -1,8 +1,6 @@
 public class Main {
-  public static void main (String[] args) {
-    int a = 3; int b = 5;
-    int c = a*b;
-    System.out.println("縦幅３横幅５の長方形の面積は"+c);
-  }
+  public static void main (String[] args){
+    System.out.println("私の好きな記号は(\")です。");
+}
 }
 
