@@ -1,10 +1,11 @@
 public class Main {
   public static void main (String[] args){
-    boolean doorClose = true;
-    while(doorClose==true){
-      System.out.println("ノックする");
-      System.out.println("１分待つ");
-    }
-      
+    boolean tenki = true; //
+    if(tenki==false){
+      System.out.println("気分はハッピー");
+      System.out.println("嬉しい");
+    }else
+      System.out.println("最悪");
   }
 }
+
