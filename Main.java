@@ -1,10 +1,8 @@
 public class Main {
   public static void main (String[] args){
-  for (int ami = 0; ami<5;ami++){
-    System.out.println("happy!");
+  for (int i=0;i<3;i++){
+    System.out.print("現在"+(i+1)+"周目→");
   }
   }
-
-
-  }
+}
 
