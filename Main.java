@@ -1,17 +1,8 @@
 public class Main {
   public static void main(String[] args){
-  int seibetsu = 1;
-  int age = 20;
-  System.out.println("こんにちは！");
-  if(seibetsu ==0){
-    System.out.println("俺は男だ！");
-  }else{
-    System.out.println("私は女よ！");
-  }
-  if(seibetsu ==0){
-    System.out.println(age+"歳です。");
-  }
-    System.out.println("どうぞ宜しくお願いします！");
+    int[] score = new int[5];
+    int kobakos  = score.length;
+    System.out.println("要素の数:"+kobakos);
   }
 }
 
