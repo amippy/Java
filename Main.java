@@ -1,8 +1,10 @@
 public class Main {
   public static void main(String[] args){
-    int[] score = new int[5];
-    int kobakos  = score.length;
-    System.out.println("要素の数:"+kobakos);
+  int [] score;
+  score = new int[5];
+  score[1]=30;
+  System.out.println(score[1]);
+
   }
 }
 
