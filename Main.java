@@ -1,10 +1,17 @@
 public class Main {
   public static void main(String[] args){
-    int[][]scores= {{10,20,30},{30,40,50}};
-    System.out.println(scores.length);
-    System.out.println(scores[0].length);
+    int[] numbers={3,4,9};
+    System.out.println("１桁の数字を入力してください。");
+    int input=new java.util.Scanner(System.in).nextInt();
+    for(int n:numbers){
+      if(n==input){
+        System.out.println("あたり！");
+      }
+    }
   }
 }
+
+
 
     
 
