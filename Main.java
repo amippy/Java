@@ -1,14 +1,13 @@
-public class Main {
-  public static void methodA(){
-    System.out.println("methodA");
-    methodB();
-  }
-  public static void methodB(){
-    System.out.println("methodB");
-  }
+public class Main{
   public static void main (String[]args){
-    methodA();
+    System.out.println("メソッドを呼び出します");
+    hello("アミ");
+    hello("有美");
+    hello("ami");
+    System.out.println("呼び出しが終わりました。");
+  }
+  public static void hello(String name){
+    System.out.println(name+"さん、こんにちは！");
   }
 }
-
 
