@@ -4,9 +4,9 @@ public class Main {
   
     h.name = "Ami";
     h.hp = 100;
-    System.out.println("勇者"+h.name+"を生み出しました！")
+    System.out.println("勇者"+h.name+"を生み出しました！");
 
-    h.shit(5);
+    h.sit(5);
     h.slip();
     h.sit(25);
     h.run();
