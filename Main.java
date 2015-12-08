@@ -1,13 +1,17 @@
 public class Main {
   public static void main(String []args){
-    swrod s = new Sword();
-    s.name ="炎の剣";
-    s.damage =10;
-    Hero h =new Hero();
-    h.name ="有美";
-    h.hp =100;
-    h.sword =s;
-    System.out.println("現在の武器は"+h.sword.name);
+    Hero h1 =new Hero();
+    h1.name ="あみ";
+    h1.hp =100;
+    Hero h2 =new Hero();
+    h2.name ="いけび";
+    h2.hp =100;
+    Wizard w =new Wizard();
+    w.name ="ジェシー";
+    w.hp=50;
+    w.heal(h1);
+    w.heal(h2);
+    w.heal(h2);
   }
 }
 
