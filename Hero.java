@@ -5,11 +5,6 @@ public class Hero{
       this.name = name;
     }
     Hero(){
-      this.hp = 100;
-      this.name = "ダミー";
+      this("ダミー");
     }
-  }
-}
-
-
-
+ }
