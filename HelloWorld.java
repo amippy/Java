@@ -1,10 +1,11 @@
 public class HelloWorld{
   public static void main (String[] args){
-    double d = 102.333;
-    int i = (int)d;
 
-    System.out.println(i);
+    int age = 21;
+    if(age > 20){
+    System.out.println("あなたは大人です");
 
+    
     }
-
+  }
 }
