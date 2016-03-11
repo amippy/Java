@@ -1,6 +1,7 @@
 public class Hero{
 	String name;
 	int hp;
+	static int money;
 
 	Hero(String name){
 		this.hp = 100;
