@@ -1,9 +1,13 @@
 public class Cleric{
 	String name;
         int hp = 50;
-	final int MAX_HP = 50;
+	static final int MAX_HP = 50;
 	int mp = 10;
-	final String MIN_HP = 10;
+	static final int MIN_HP = 10;
+
+
+
+	
 
 	public void selfAid(){
 		System.out.println(this.name + "は、魔法セルフエイドを手に入れた");
