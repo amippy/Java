@@ -3,14 +3,7 @@ public class Hero{
 	int hp;
 	static int money;
 
-	Hero(String name){
-		this.hp = 100;
-		this.name = name;
+	static void setRandomMoney(){
+		Hero.money = (int) (Math.random() *1000);
 	}
-
-	Hero(){
-		this("ダミー");
-	}
-
 }
-
