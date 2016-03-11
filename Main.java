@@ -1,10 +1,14 @@
 public class Main{
 	public static void main(String[] args){
 
-		Hero h = new Hero("よしお");
+		Hero h1 = new Hero("よしお");
+
+		System.out.println(h1.name);
 		
-		System.out.println(h.hp);
-		System.out.println(h.name);
+		Hero h2 = new Hero();
+		System.out.println(h2.name);
+
+
 
 	}
 }
