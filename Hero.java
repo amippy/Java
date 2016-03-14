@@ -18,5 +18,9 @@ public class Hero{
 		hp -= 2;
 	}
 
+	public String getName(){
+		return this.name;
+	}
+
 
 }
