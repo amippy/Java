@@ -1,39 +1,29 @@
 public class Cleric{
 	String name;
-        int hp = 50;
-	static final int MAX_HP = 50;
-	int mp = 10;
-	static final int MIN_HP = 10;
-
-
-
-	
+	int hp = 100;
+	final int MAX_HP = 50;
+	int mp= 10;
+	final int MAX_MP = 10;i
 
 	public void selfAid(){
-		System.out.println(this.name + "は、魔法セルフエイドを手に入れた");
+		System.out.println("魔法セルフエイドを使う！");
+
 		this.hp = this.MAX_HP;
-		System.out.println(this.name + "は、セルフエイドを使った")
-		mp -= 5;
-		System.out.println(this.name + "は、HPを最大まで回復した");
+		this.mp -= 5;
 	}
 
-	public int pray(int sec){
-		System.out.println(this.name + "は" + sec + "秒天に祈った");
+	pray(int sec){
+		System.out.pritnl(this.name + sec + "秒祈った");
 
-		int recover = new Random().nextInt(3) + sec;
+		int r = new Random().nextInt(3);
 
-		int recoverActual = Math.min(this.MAX_MP - this.mp, recover);
+		int rActual = Math.min(this.MAX_MP - this.mp,r);
 
-		this.mp += recoverActual;
-		System.out.println("MPが" + recoverActual + "回復した");
-		return recoverActual;
+		this.mp += rActual;
+		System.out.println("MPが" + rActual + "回復した！");
+		return rActual;
+	
 
 	}
-
-	}
-
-
-
-
 
 }
