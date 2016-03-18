@@ -1,15 +1,11 @@
 public class Main{
 	public static void main(String[] args){
 
-		Hero h = new Hero();
-		h.name = "よしお";
-		h.hp = 100;
+		Hero h = new Hero("よしお");
 
-		GirlFriend g = new GirlFriend();
-		g.name = "マリー";
-		g.hp = 20;
 
-		System.out.println(h.name + "と" + g.name + "は、結婚した！");
+		System.out.println(h.name + "の体力は、" +h.hp);
+		
 
 	}
 }
