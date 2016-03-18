@@ -1,24 +1,15 @@
 public class Main{
 	public static void main(String[] args){
-		Hero h = new Hero();
 
+		Hero h = new Hero();
 		h.name = "よしお";
 		h.hp = 100;
 
-		System.out.println("勇者" + h.name + "は" + h.hp + "体力をもつ！"); 
+		GirlFriend g = new GirlFriend();
+		g.name = "マリー";
+		g.hp = 20;
 
-		h.run();
+		System.out.println(h.name + "と" + g.name + "は、結婚した！");
 
-		Matango m = new Matango();
-
-		m.hp = 100;
-
-		m.run();
-
-		m.suffix = 'A';
-
-
-
-		
 	}
 }
