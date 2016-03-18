@@ -1,11 +1,12 @@
 public class Main{
 	public static void main(String[] args){
 
-		Hero h = new Hero("よしお");
+		Hero h1 = new Hero("よしお");
 
+		System.out.println("勇者" + h1.name + "が現れた!");
 
-		System.out.println(h.name + "の体力は、" +h.hp);
-		
+		Hero h2 = new Hero();
 
+		System.out.println("私の名前は" + h2.name +"よーん");
 	}
 }
