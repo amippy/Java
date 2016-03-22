@@ -1,9 +1,8 @@
 public class Main{
 	public static void main(String[] args){
 		
-		Hero.money = 100;
-		System.out.println(Hero.money);
-
+		Hero h = new Hero("Ami");
+		h.sleep();
 
 
 	}
