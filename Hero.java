@@ -33,7 +33,10 @@ public class Hero{
 		System.out.println(this.name + "は、寝て回復をした！");
 	}
 
-	Hero(){
+	Hero(String name){
 		this.hp = 100;
+		this.name = name;
 	}
+
+	
 }
