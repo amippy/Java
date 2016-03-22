@@ -2,10 +2,12 @@ public class Hero{
 
 	String name;
 	int hp;
+	Sword sword;
+
 
 	void attack(){
 		this.hp = 100;
-		System.out.println(this.name + "は、攻撃をした！");
+		System.out.println(this.name + "は、" + this.sword.name + "を使って攻撃をした！");
 	}
 
 	void run(){
