@@ -5,6 +5,7 @@ public class Hero{
 	Sword sword;
 
 
+
 	void attack(){
 		this.hp = 100;
 		System.out.println(this.name + "は、" + this.sword.name + "を使って攻撃をした！");
@@ -30,5 +31,9 @@ public class Hero{
 	void sleep(){
 		this.hp =100;
 		System.out.println(this.name + "は、寝て回復をした！");
+	}
+
+	Hero(){
+		this.hp = 100;
 	}
 }
