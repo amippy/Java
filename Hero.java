@@ -26,5 +26,11 @@ public class Hero{
 		System.out.println(this.name + "は、逃げ出した！");
 	}
 
+	public final void slip(){
+		this.hp -= 5;
+		System.out.println(this.name + "は転倒した！");
+		System.out.println(this.name + "は、体力を５減少！");
+	}
+
 
 }
