@@ -1,25 +1,30 @@
 public class Hero{
+
 	private String name;
+	
+	public String getName(){
+		return this.name;
+	}
 
 	public void setName(String name){
-
-		if(name == null){
-			throw new IllegalArgumentException
-			("名前がnullである。処理を中断。");
-		}
-
-		if(name.length() <= 1){
-			throw new IllegalArgumentException
-			("名前が短すぎる。処理を中断");
-		}
-
-		if(name.length() >= 20){
-			throw new IllegalArgumentException
-			("名前が長すぎる。処理を中断");
-		}
-
 		this.name = name;
 	}
+
+	private int hp;
+
+	Hero(){
+		this.hp =100;
+	}
+
+	public void attack(Matango m){
+		System.out.println(this.name + "の攻撃！");
+		m.hp -= 5;
+		System.out.println("５ポイントのダメージを与えた!");
+	}
+
+	public void run(){
+		System.out.println(this.name + "は、逃げ出した！");
+	}
+
+
 }
-
-
