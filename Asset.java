@@ -1,0 +1,2 @@
+public abstract Asset class{
+}
