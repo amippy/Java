@@ -5,4 +5,10 @@ public class Main{
 		s.run();
 		m.run();
 	}
+
+	if(c instanceof SuperHero){		//もしcの中身がSuperHeroだったならば
+
+		SuperHero h = (SuperHero)c;	//SuperHeroとみなせ！
+		h.fly;
+	}
 }
