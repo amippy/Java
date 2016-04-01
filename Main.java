@@ -1,14 +1,25 @@
 public class Main{
 	public static void main(String[] args){
-		Slime s = new Slime();
-		Monster m = new Slime();
-		s.run();
-		m.run();
-	}
+		Character[] c = new Character[5];
 
-	if(c instanceof SuperHero){		//もしcの中身がSuperHeroだったならば
+		c[0] = new Hero();
+		c[1] = new Hero();
+		c[2] = new Thief();
+		c[3] = new Wizard();
+		c[4] = new Wizard();
 
-		SuperHero h = (SuperHero)c;	//SuperHeroとみなせ！
-		h.fly;
+		for(Character ch : c){
+			ch.setHp(ch.getHp() + 50);
+		}
+
+		Monster[] monsters = new Monster[3];
+
+		monsters[0] = new Slime();
+		monsters[1] = new Goblin();
+		monsters[2] = new DeathBat();
+
+		for (Monster m : monsters){
+			m.run();
+		}
 	}
 }
