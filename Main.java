@@ -5,4 +5,9 @@ public class Main{
 		s.run();
 		m.run();
 	}
+
+	if(c instanceof SuperHero){
+		SuperHero sh = (SuperHero) c;
+		sh.fly();
+	}
 }
