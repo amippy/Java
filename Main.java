@@ -1,13 +1,10 @@
 public class Main{
 	public static void main(String[] args){
-		Slime s = new Slime();
-		Monster m = new Slime();
-		s.run();
-		m.run();
-	}
 
-	if(c instanceof SuperHero){
-		SuperHero sh = (SuperHero) c;
-		sh.fly();
+		long start = System.currentTimeMillis();
+		//ここでなんらかの時間がかかる処理
+
+		long end = System.out.println("処理にかかった時間は…"
+		+ (end - start) + "ミリ秒でした");
 	}
 }
