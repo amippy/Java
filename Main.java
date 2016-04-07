@@ -1,12 +1,15 @@
-import java.util.Date;
 public class Main{
-	public static void main(String[] args){
-		Date now = new Date();
-		System.out.println(now);
-		System.out.println(now.getTime());
-		Date past = new Date(1316622225935L);
-		System.out.println(past);
+	public static void main(String[]args){
+		Hero h = new Hero();
+		h.name = "ジェシー";
+		h.hp = 100;
 
+		Matango m1 = new Matango();
+		m1.hp = 50;
+		m1.suffix = 'A';
+
+		m1.run();
+		h.run();
 
 	}
 }
