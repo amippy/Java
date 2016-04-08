@@ -1,12 +1,14 @@
 public class Main{
-	public static void main(String[]args){
-		Hero h1 = new Hero();
-		h1.name = "ジェシー";
-		h1.hp = 100;
+	public static void main(String[] args){
 
-		Hero h2;
-		h2 = h1;
-		h2.hp = 200;
-		System.out.println(h1.hp);
+		Shield sh = new Shield();
+		sh.name = "鉄の盾";
+		sh.damage = 0;
+
+		Hero h = new Hero();
+		h.name = "ジェシー";
+		h.hp = 100;
+		h.shield = sh;
+		System.out.println(h.name + "の、現在の武器は" + h.shield.name );
 	}
 }

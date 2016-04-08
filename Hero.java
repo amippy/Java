@@ -1,6 +1,7 @@
 public class Hero{
 	String name;
 	int hp;
+	Shield shield;
 
 	void attack(){
 		System.out.println(this.name+"は攻撃をした");
