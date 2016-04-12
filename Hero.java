@@ -1,29 +1,17 @@
 public class Hero{
-	String name;
 	int hp;
-	Shield shield;
+	String name;
+	static int money;
 
-	void attack(){
-		System.out.println(this.name+"は攻撃をした");
-	}
 
-	void run(){
-		System.out.println(this.name+"勇者は逃げだした！");
-		System.out.println("GAMEOVER");
-	}
-
-	void sleep(){
+	Hero(String name){
 		this.hp = 100;
-		System.out.println(this.name + "は、眠って回復した！");
+		this.name =  name;
 	}
 
-	void sit(int sec){
-		this.hp += sec;
-		System.out.println(this.name + "は、" + sec + "秒座った！");
-		System.out.println(sec + "秒眠ったので"+ sec + "回復した!");
+	Hero(){
+		this("NO NAME");
 	}
-	void slip(){
-		this.hp -= 5;
-		System.out.println(this.name + "は、転んで体力５減った！");
-	}
+
 }
+
